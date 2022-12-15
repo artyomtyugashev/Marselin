@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Montserrat&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&family=Raleway&family=Roboto&display=swap");
+.tplborder {
+  font-size: 100px;
+  border-bottom: 5px dashed red;
+}
+
+.container-fluid {
+  min-height: 120px;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  font-family: "Permanent Marker";
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  color: #141414;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.bascet {
+  color: #000;
+  text-decoration: none;
+  margin-right: 280px;
+  font-size: 25px;
+  max-height: 30px;
+}
+
+.bascet:hover {
+  color: #2b2a2a;
+}
+
+.product-thumb {
+  font-family: "Montserrat";
+}
+
+.product-thumb a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100%;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.card-img-top {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.card-img-top:hover {
+  -webkit-box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+          box-shadow: 0 14px 30px -15px rgba(0, 0, 0, 0.75);
+}
+
+.card-title {
+  font-weight: 600;
+  display: block;
+  height: 40px;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 20px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.border {
+  color: #ccc;
+  border-bottom: 1px solid #666;
+}
+
+footer {
+  min-height: 100px;
+  margin-top: 100px;
+}
+
+footer a {
+  color: #646464;
+  font-size: 16px;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.pad {
+  padding: 5px;
+}
